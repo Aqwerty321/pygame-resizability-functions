@@ -107,8 +107,8 @@ def get_scale_and_position_as_function_of_pygame_surface_dimensions(
     y_scale = restricted_eval(y_scale_function, variables)
 
     # Add scale values to the variables dictionary for position calculation.
-    variables[f"{surface_name}_x_scale"] = x_scale
-    variables[f"{surface_name}_y_scale"] = y_scale
+    variables[f"x_scale"] = x_scale
+    variables[f"y_scale"] = y_scale
 
     # Evaluate the position functions using the custom surface name and scale values.
     x = restricted_eval(x_pos_function, variables)
