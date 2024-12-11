@@ -252,3 +252,5 @@ A button or UI panel can automatically adjust to the new window size while keepi
 Useful for responsive design in games or applications where the window size changes, ensuring UI consistency.
 This workflow ensures that the UI element stays appropriately scaled and positioned every time the window size changes, providing a fully responsive interface.
 ---
+##LICENSE
+LICENSED UNDER THE MIT LICENSE
